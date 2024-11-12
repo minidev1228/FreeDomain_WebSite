@@ -1,0 +1,199 @@
+[
+    {
+        "id": "20c93cc5-0c9f-41a9-a925-8acaaf3fee8d",
+        "filterCode": "Brand",
+        "filterName": "Related Brand",
+        "filterType": 0,
+        "filterTypeText": "Text",
+        "filterOrder": 1,
+        "refFilterValues": []
+    },
+    {
+        "id": "f4b55f63-2960-4fb7-b7e0-20010b2ae8e5",
+        "filterCode": "Length",
+        "filterName": "Domain Length (Max)",
+        "filterType": 0,
+        "filterTypeText": "Number",
+        "filterOrder": 2,
+        "refFilterValues": []
+    },
+    {
+        "id": "701b0892-c7a0-41d2-aec3-b3de57410719",
+        "filterCode": "Tone",
+        "filterName": "Tone",
+        "filterType": 0,
+        "filterTypeText": "Dropdown",
+        "filterOrder": 3,
+        "refFilterValues": [
+            {
+                "valueId": "8e44dae1-f26b-4fd5-902d-19e84d0e3373",
+                "value": "Action-Oriented",
+                "order": 1
+            },
+            {
+                "valueId": "d288c91e-b445-4d95-898c-f46701f80712",
+                "value": "Creative",
+                "order": 2
+            },
+            {
+                "valueId": "1a29f4fa-61e7-469d-8990-c1ae6d2d9297",
+                "value": "Eco-friendly",
+                "order": 3
+            },
+            {
+                "valueId": "62051f91-db4a-4e53-9e19-1a973d8826ad",
+                "value": "Educational",
+                "order": 4
+            },
+            {
+                "valueId": "b3656249-3ddd-41ac-aeef-ab10282e0799",
+                "value": "Friendly",
+                "order": 5
+            },
+            {
+                "valueId": "bd3369e8-7d27-4820-9035-16667a699c64",
+                "value": "Fun and Playful",
+                "order": 6
+            },
+            {
+                "valueId": "0900305d-36b9-4ea0-ba94-5849a58bda73",
+                "value": "Innovative and Technical",
+                "order": 7
+            },
+            {
+                "valueId": "9b4b83d2-9971-4e87-8be1-705d15f20d14",
+                "value": "Luxurious and Elegant",
+                "order": 8
+            },
+            {
+                "valueId": "990c6ffc-1dea-47f9-a5d8-0af1b0cd7241",
+                "value": "Minimalist",
+                "order": 9
+            },
+            {
+                "valueId": "91f64d54-4ab0-4243-8c2c-7e9bf1ec3612",
+                "value": "Professional",
+                "order": 10
+            }
+        ]
+    },
+    {
+        "id": "601b0892-c7a0-41d2-aec3-b3de57410716",
+        "filterCode": "TLDs",
+        "filterName": "Domain Extensions",
+        "filterType": 0,
+        "filterTypeText": "Checkboxes",
+        "filterOrder": 4,
+        "refFilterValues": [
+            {
+                "valueId": "cd481311-7c47-4db3-b7fb-354f9661b774",
+                "value": ".com",
+                "order": 1
+            },
+            {
+                "valueId": "d6a0fcac-fe39-43a8-8717-ff690b9fd890",
+                "value": ".org",
+                "order": 2
+            },
+            {
+                "valueId": "0f4b5e1c-7fb5-4be9-9f47-90fd361c9782",
+                "value": ".net",
+                "order": 3
+            },
+            {
+                "valueId": "da7c6024-1679-4122-851e-f0207262d2cf",
+                "value": ".edu",
+                "order": 4
+            },
+            {
+                "valueId": "74cd1c34-430f-4573-9ba2-fe1eb5b06994",
+                "value": ".gov",
+                "order": 5
+            },
+            {
+                "valueId": "77df032e-7030-4d12-83da-9f16a89291f9",
+                "value": ".io",
+                "order": 6
+            },
+            {
+                "valueId": "d627ecc6-055c-4c5b-a410-4804d0967b38",
+                "value": ".co",
+                "order": 7
+            },
+            {
+                "valueId": "0a2a7dc7-0352-4213-87ac-304067909696",
+                "value": ".info",
+                "order": 8
+            },
+            {
+                "valueId": "f06f2781-6c4f-4313-8ef2-aba70a9a617c",
+                "value": ".biz",
+                "order": 9
+            },
+            {
+                "valueId": "b7bf530f-2768-41a9-b00d-1065f42212fd",
+                "value": ".me",
+                "order": 10
+            },
+            {
+                "valueId": "e60ad95f-a1ef-471e-b326-1335c52bca7d",
+                "value": ".online",
+                "order": 11
+            },
+            {
+                "valueId": "5a1cdd8d-f0fa-47b5-b14c-59465b44b4f7",
+                "value": ".store",
+                "order": 12
+            },
+            {
+                "valueId": "7acf64a8-9df6-4e92-aabc-f62487e9b35d",
+                "value": ".app",
+                "order": 13
+            },
+            {
+                "valueId": "f5dbef0c-99c5-4607-b8d3-422f6552a3fa",
+                "value": ".tech",
+                "order": 14
+            },
+            {
+                "valueId": "ca550e70-7a41-4352-8cbd-99a6e65b2403",
+                "value": ".site",
+                "order": 15
+            },
+            {
+                "valueId": "0bd7c4cc-e66b-4d45-8600-a3fd536605b6",
+                "value": ".xyz",
+                "order": 16
+            },
+            {
+                "valueId": "20250a5b-7a18-40b7-9ea7-e621cf59d6e1",
+                "value": ".live",
+                "order": 17
+            },
+            {
+                "valueId": "650ef27c-608f-42cf-be1c-032bb34fcbad",
+                "value": ".club",
+                "order": 18
+            },
+            {
+                "valueId": "f1f89d87-51aa-4e7c-80d6-7782cbdc81a0",
+                "value": ".dev",
+                "order": 19
+            },
+            {
+                "valueId": "387b8a9e-d1f4-44d6-856a-c364b7bb8671",
+                "value": ".shop",
+                "order": 20
+            }
+        ]
+    },
+    {
+        "id": "c0e7ddb1-58f5-41f7-a9aa-a1ee7f4f9920",
+        "filterCode": "PrioritizeSEO",
+        "filterName": "Prioritize SEO Potential?",
+        "filterType": 0,
+        "filterTypeText": "Boolean",
+        "filterOrder": 5,
+        "refFilterValues": []
+    }
+]

@@ -1,0 +1,8 @@
+.dropdown-content {
+    width: 500px;
+    display: flex;
+    flex-direction: column!important;
+}
+.MuiSelect-select.MuiSelect-select{
+    width: 60vw;
+}

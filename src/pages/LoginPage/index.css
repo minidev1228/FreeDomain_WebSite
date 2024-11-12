@@ -1,0 +1,146 @@
+.login-page{
+    width: 100vw;
+    position: relative;
+}
+
+.login-page .home-page-header {
+    position:relative;
+}
+
+.login-page-body{
+    width: 100%;
+    height: calc(100vh - 163px);
+    box-sizing: border-box;
+    display: flex;
+}
+
+.login-page-body-left , .login-page-body-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.login-page-email-form , .login-page-code-form{
+    background-color: #f5f5ff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.login-page-email-form h6{
+    margin: 0px 0px 34px 0px!important;
+}
+
+.login-page-email-form h5, .login-page-code-form h5{
+    margin: 0px;
+    font-size: 25px;
+    color: #345bec;
+}
+
+.login-page-email-form>div{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.login-page-email-form .input-css{
+    width: 100%;
+}
+
+.login-page-email-form button{
+    width: 100%;
+    margin-top: 28px;
+    height: 30px;
+    background-color: #2c64fe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-page-body-right img{
+    width: 80%;
+}
+
+.code-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.code-input input{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+}
+
+.login-page-code-form > div{
+    background-color: white;
+    padding: 10px 22px;
+    border-radius: 10px;
+}
+
+.login-page-code-form button{
+    width: 100%;
+    margin: 10px 0px;
+    height: 40px;
+    background-color: #2c64fe;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.login-page-code-form .options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.login-page-code-form .options a{
+    cursor: pointer;
+}
+
+.time-line{
+    display: flex;
+}
+
+
+.enter-pin-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-line div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .login-page-body-right{
+        display: none;
+    }
+    .login-page-body-left{
+        width: 100%;
+    }
+    .login-page-code-form h5{
+        font-size: 22px;
+    }
+    .code-input input {
+        width: 30px;
+        height: 30px;
+    }
+}

@@ -1,0 +1,70 @@
+.member-ship-card{
+    position: relative;
+    width: 315px;height: 650px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5ff;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.member-ship-card .header{
+    border-bottom: 1px solid gray; width: 100%;background-color: white;padding: 10px;padding-left: 27px;padding-top: 19px;padding-bottom: 20px ;
+}
+
+.member-ship-card .header div{
+    height: 40px;width: 40px;background-color: #ebeffd;display: flex;justify-content: center;align-items: center;border-radius: 10px;
+}
+
+.member-ship-card .header p{
+    color: #7b7b7b;font-size: 12px;margin: 0px;
+}
+
+.member-ship-card .body{
+    display: flex;justify-content: center;align-items: center;flex-direction: column;width: 100%;
+}
+
+.member-ship-card .body .top{
+    padding-left: 33px;width: 100%;
+}
+
+.member-ship-card .body .top h2{
+    color: #3f3f3f;margin-bottom: 0px;
+}
+
+.member-ship-card .body .top p{
+    margin-top: 6px;
+}
+
+.member-ship-card .body .bottom{
+    width:80%
+}
+
+.member-ship-card .body .bottom button{
+    width: 100%; height: 45px; background-color: #176cfd; border: none; color: white; border-radius: 10px;cursor: pointer;
+}
+
+.member-ship-card .body .bottom > div{
+    margin-top: 20px;
+}
+
+.member-ship-card .body .bottom > div >div{
+    display: flex;flex-direction: row;justify-content: center;align-items: center;
+}
+
+.member-ship-card .body .bottom > div img{
+    width: 15px;height: 15px;margin-right: 10px;
+}
+
+.member-ship-card .body .bottom > div > p{
+    margin: 10px 0px;
+}
+
+.popular-sign{
+    height: 30px;background-color: #ebeffd;color: #345bec;position: absolute;top: 0px;right: 10px;border-radius: 0px 0px 10px 10px; display: flex;justify-content: center;align-items: center;
+    padding: 0px 10px;
+}
+
+.popular-sign p{
+    margin: 0px;
+}

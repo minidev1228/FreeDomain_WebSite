@@ -1,0 +1,141 @@
+.detail-page{
+    width: 100%;
+    height: 100%;
+}
+
+.detail-page .top-bar{
+    /* height: 50px; */
+    background-color: white;
+    border-top: 1px solid grey;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.detail-page .top-bar p{
+    margin: 5px;
+    font-size: 13px;
+}
+
+.detail-page .top-bar h3{
+    margin: 5px;
+}
+
+.detail-page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+      
+.detail-page th, .detail-page td {
+    text-align: left;
+    padding: 8px;
+}
+      
+.detail-page tr:nth-child(even) {background-color: #f2f2f2;}
+
+.detail-content{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.detail-content span{
+    /* display: block; */
+    border-radius: 15px;
+    background-color: #ebeffd;
+    color: #345bec;
+    padding: 5px;
+}
+
+.detail-content .status span{
+    height: 1px;
+    width: 1px;
+    border-radius: 15px;
+}
+
+.detail-content .status span{
+    margin-right: 10px;
+    display: block;
+}
+
+.detail-content .status{
+    display: flex;
+    align-items: center;
+}
+
+.detail-page .tags-used span {
+    padding: 3px 10px;
+    background-color: #ebeffd;
+    border: 1px solid #a2b4f6;
+    color: #345bec;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.detail-page .tags-used{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.css-112ujhy-MuiAccordionDetails-root {
+    padding: 8px 16px 16px;
+    padding: 16px;
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.css-112ujhy-MuiAccordionDetails-root .body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.css-112ujhy-MuiAccordionDetails-root .body > div{
+    width: 40%;
+}
+
+.css-112ujhy-MuiAccordionDetails-root .body div div{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.mobile-table{
+    box-shadow: inset;
+    display: none;
+}
+
+.mobile-table th{
+    background-color: white;
+    border-right: 1px solid rgba(128, 128, 128, 0.121);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.121);
+}
+
+.mobile-table td{
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.121);
+}
+
+.desktop-table{
+    display: inline-table;
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile-table {
+        display: inline-table;
+    }
+
+    .desktop-table{
+        display: none;
+    }
+        
+}

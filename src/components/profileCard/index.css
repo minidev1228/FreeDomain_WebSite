@@ -1,0 +1,19 @@
+.profile-card{
+    padding: 5px;width: 300px;box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;padding: 21px;border-radius: 19px;
+    margin-top: 20px;
+}
+
+.profile-card .top{
+    border-bottom: 1px solid #d9d9d9;display: flex;flex-direction: row;padding-bottom: 5px;
+}
+
+.profile-card .top div{
+    height: 60px;width: 60px;border-radius: 50px;overflow: hidden;margin-right: 10px;
+}
+
+.profile-card .top img{
+    width: 100%;height: 100%;border-radius: 15px;
+}
+.profile-card p{
+    font-size: 13px;
+}

@@ -1,0 +1,117 @@
+.payment-page{
+    width: 100vw;
+}
+
+.payment-page-body{
+    width: 100%;
+    height: calc(100vh - 163px);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5ff;
+}
+
+.payment-page-body>div{
+    width: 80%;
+    /* height: 80%; */
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.cancel-but{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.paypal-but{
+    background-color: #166dfd;
+    color: white;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    display: none;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.paypal-but img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.payment-page-body .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .paypal-button.paypal-button-shape-rect{
+    width: 200px!important;
+} */
+
+.payment-page-body .row p{
+    width: 80%;
+    font-size: 15px;
+    color: #575757;
+}
+
+.payment-page-body h3{
+    font-size: 26px;
+    color: #345bec;
+}
+
+.payment-page-body .row h5{
+    font-size: 20px;
+    color: #575757;
+    margin: 5px 0px;
+}
+
+.button-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-direction: column-reverse;
+}
+.monthly-div{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.monthly-div img{
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .button-group{
+        flex-direction: column;
+    }
+    .button-group button{
+        margin-top: 10px;
+    }
+    .payment-page-body .row p {
+        font-size: 11px;
+    }
+    .payment-page-body .row h5 {
+        font-size: 12px;
+    }
+}

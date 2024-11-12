@@ -1,0 +1,64 @@
+.pricing-page{
+    width: 100%;
+    height: 100%;
+}
+
+.pricing-page .top-bar{
+    height: 50px;
+    background-color: white;
+    border-top: 1px solid grey;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.pricing-page .content{
+    height: calc(100% - 50px);
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-page .content .card-group-parent{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pricing-page .card-group{
+    width: 100%;
+    padding: 5px;
+}
+
+.pricing-page .card-group-parent{
+    padding-top: 25px;
+}
+.pricing-page .card-group-parent h5 {
+    font-size: 27px;
+}
+
+.pricing-page .card-group-parent>p {
+    width: 85%;
+}
+
+.pricing-pag .member-ship-card{
+    height: 427px;
+}
+
+.pricing-pag .member-ship-card h3{
+    margin: 10px 0px;
+}
+
+.pricing-pag .member-ship-card .body .top h2 {
+    font-size: 16px;
+}
+
+.pricing-pag .member-ship-card .body .bottom button{
+    font-size: 35px;
+}
+
+.pricing-pag .member-ship-card .body .bottom > div >div p{
+    font-size:12px!important;
+}

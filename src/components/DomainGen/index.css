@@ -1,0 +1,11 @@
+.domain-gen{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebeffd;
+    color: #345bec;
+}

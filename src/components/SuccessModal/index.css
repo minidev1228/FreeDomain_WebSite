@@ -1,0 +1,61 @@
+.success-modal{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    z-index: 3;
+    position: relative; */
+}
+
+.success-modal-card{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 13px;
+    max-width: 400px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: 1px solid #176CFD;
+    z-index: 13;
+}
+
+.success-modal-card img{
+    width: 22px;
+    margin-right: 10px;
+}
+
+.success-modal-card h6{
+    font-size: 15px;
+    margin: 0px;
+}
+
+.success-modal-card p{
+    font-size: 0.8rem;
+    color: #7d7d7d;
+    margin: 10px 0px;
+}
+
+.modal-button-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-button-div div{
+    flex-grow: 1;
+}
+
+.modal-button-div button{
+    border: none;
+    background-color: #2268fe;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}

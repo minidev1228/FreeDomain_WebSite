@@ -1,0 +1,74 @@
+.my-dashboard-page .content{
+    height: calc(100% - 96px);
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+.my-dashboard-page{
+    width: 100%;
+    height: 100%;
+}
+.my-dashboard-page .buton-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.my-dashboard-page .buton-group button{
+    width: 30px;
+    height: 30px;
+    margin: 1%;
+    background-color: white;
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.my-dashboard-page .content .empty-div{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-dashboard-page .empty-div button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3460ff;
+    color: white;
+    cursor: pointer;
+}
+
+.my-dashboard-page .top-bar{
+    height: 50px;
+    background-color: white;
+    border-top: 1px solid grey;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.my-dashboard-page .top-bar p{
+    font-size: 12px;
+    text-align:end;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
